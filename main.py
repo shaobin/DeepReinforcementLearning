@@ -21,7 +21,7 @@ import loggers as lg
 from settings import run_folder, run_archive_folder
 import initialise
 import pickle
-
+from importlib import reload
 
 lg.logger_main.info('=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*')
 lg.logger_main.info('=*=*=*=*=*=.      NEW LOG      =*=*=*=*=*')
